@@ -9,7 +9,7 @@ A small package that adds support for compiling Haml templates to Laravel via [M
 ## Installation
 
 1. Add it to your composer.json (`"bkwld/laravel-haml": "~2.0"`) and do a composer install.
-2. Add the service provider to your app.php config file providers: `'Bkwld\LaravelHaml\ServiceProvider',`
+2. Add the service provider to your app.php config file providers: `'Bkwld\LaravelHaml\ServiceProvider',` (note: add this after all other service providers that introduce Blade directives)
 
 
 
